@@ -1,0 +1,5 @@
+Flask
+pymongo
+SpeechRecognition
+google-cloud-speech
+google-cloud-vision

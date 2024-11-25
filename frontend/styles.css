@@ -1,0 +1,109 @@
+/* Reset styles */
+body, h1, h2, p, form, input, button, textarea, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #494544, #0f1011);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Section titles */
+.container h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="file"], input[type="text"], textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+button {
+    background-color: #92a0d8;
+    color: rgb(27, 26, 26);
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #3759c7;
+}
+
+/* Output sections */
+.output-section div {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.2);
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    color: #fff;
+    font-size: 0.8rem;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.2);
+}

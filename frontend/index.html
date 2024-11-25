@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Media Editing Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AI Media Editing Tool</h1>
+    </header>
+    <main class="container">
+        <section class="upload-section">
+            <h2>Upload Media</h2>
+            <form id="uploadForm">
+                <label for="mediaUpload">Upload your videos or images:</label>
+                <input type="file" id="mediaUpload" accept="video/*,image/*" multiple>
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+
+        <section class="search-section">
+            <h2>Search Your Media</h2>
+            <input type="text" id="searchBar" placeholder="Search by transcription or tags...">
+            <button id="searchButton">Search</button>
+        </section>
+
+        <section class="prompt-section">
+            <h2>Create a Story</h2>
+            <textarea id="storyPrompt" placeholder="Enter your story prompt here..."></textarea>
+            <button id="generateStory">Generate Story</button>
+        </section>
+
+        <section class="output-section">
+            <h2>Results</h2>
+            <div id="transcription">Transcription results will appear here...</div>
+            <div id="tags">Tagging results will appear here...</div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 AI Media Editing Tool - All Rights Reserved</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
